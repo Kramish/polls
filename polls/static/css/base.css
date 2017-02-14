@@ -1,0 +1,19 @@
+.clear { clear: both; }
+
+#main-nav {
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.navbar-header { width: 100%; }
+
+#auth-container { float: right; }
+#auth-container .navbar-text { margin-right: 15px !important; }
+
+#auth-dialog .sep {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+#auth-dialog .modal-dialog { width: 400px; }
