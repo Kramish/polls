@@ -1,7 +1,7 @@
 from .forms import UserProfileForm
 
 
-def vars(request):
+def context_vars(request):
     return {
         'user_profile_form': UserProfileForm()
     }
